@@ -6,9 +6,6 @@ class Record < Character
 		@rep = rep
 		super(c)
 	end
-	def code
-		@c.ord
-	end
 	def string
 		char * @rep
 	end
